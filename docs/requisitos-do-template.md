@@ -35,7 +35,7 @@ A estrutura principal segue o [template do professor](https://github.com/FagnerP
 ## Coerência entre entregas
 
 - O escopo vigente é receitas variadas, com limites de compatibilidade.
-- Mariana representa uso cotidiano; Roberto, contato ocasional no cenário compartilhado.
+- Ana representa uso cotidiano; Joaquim, contato ocasional no cenário compartilhado.
 - Mapas são hipóteses sobre a rotina de cozinhar sem robô. Requisitos do ChefBot aparecem depois, como decisões derivadas.
 - Consulta e explicação não substituem o estado operacional.
 - Diagramas e cotas não demonstram fabricação ou segurança.

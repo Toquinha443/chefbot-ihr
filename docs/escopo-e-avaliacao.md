@@ -15,7 +15,7 @@ As ações previstas incluem dosagem, transferência, mistura, montagem e, quand
 | Produzido | Natureza |
 |---|---|
 | Definição de problema, público e contexto | Delimitação conceitual |
-| Mariana e Roberto, com mapas de empatia | Hipóteses de design |
+| Ana e Joaquim, com mapas de empatia | Hipóteses de design |
 | Análise de concorrência e referências | Pesquisa documental |
 | Forma, esboços e imagens | Representações conceituais; cotas preliminares |
 | Jornada, ações, estados e comunicação | Especificação proposta |

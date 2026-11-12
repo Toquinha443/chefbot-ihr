@@ -35,21 +35,21 @@ A pergunta que orienta o projeto é: como apoiar receitas variadas sem retirar d
 
 **2:30–3:45 · 75 segundos**
 
-Para explorar esse contexto, construímos duas personas hipotéticas. Mariana tem 28 anos, rotina corrida e experiência culinária básica. Ela representa a pessoa que prepararia as entradas e acompanharia o uso cotidiano. Sua necessidade principal é concluir a refeição sem se perder na sequência. Roberto tem 52 anos, cozinha com experiência e ajuda ocasionalmente na cozinha compartilhada. Ele quer entender o preparo, preservar preferências e colaborar sem atrapalhar. A distinção é de papel naquele cenário: uma mesma pessoa poderia assumir outro papel em outro momento. Também consideramos quem limpa ou faz manutenção e quem consome a refeição sem operar o robô. O Thiago vai aprofundar a rotina dessas personas, ainda sem o ChefBot, por meio dos mapas de empatia.
+Para explorar esse contexto, construímos duas personas hipotéticas. Ana tem 28 anos, rotina corrida e experiência culinária básica. Ela representa a pessoa que prepararia as entradas e acompanharia o uso cotidiano. Sua necessidade principal é concluir a refeição sem se perder na sequência. Joaquim tem 52 anos, cozinha com experiência e ajuda ocasionalmente na cozinha compartilhada. Ele quer entender o preparo, preservar preferências e colaborar sem atrapalhar. A distinção é de papel naquele cenário: uma mesma pessoa poderia assumir outro papel em outro momento. Também consideramos quem limpa ou faz manutenção e quem consome a refeição sem operar o robô. O Thiago vai aprofundar a rotina dessas personas, ainda sem o ChefBot, por meio dos mapas de empatia.
 
 ## Thiago
 
-### Slide 5 — Mariana: antes do ChefBot
+### Slide 5 — Ana: antes do ChefBot
 
 **3:45–4:40 · 55 segundos**
 
-Este mapa descreve Mariana cozinhando sem o robô. Ela vê ingredientes, louça, uma receita no celular e pessoas circulando. Ouve água, exaustor e conversas. Ela separa itens, relê instruções e alterna tarefas. Ao mesmo tempo, quer conciliar a refeição com seus horários e fica insegura quando perde uma etapa. As dores são o tempo curto, as interrupções e a sequência confusa. O ganho desejado é acompanhar o preparo com menos esforço e perceber quando precisa agir. Reparem que aqui não há comandos, telas ou respostas do ChefBot. Primeiro mapeamos a situação e a necessidade; depois formulamos a solução. Esses itens são hipóteses a investigar.
+Este mapa descreve Ana cozinhando sem o robô. Ela vê ingredientes, louça, uma receita no celular e pessoas circulando. Ouve água, exaustor e conversas. Ela separa itens, relê instruções e alterna tarefas. Ao mesmo tempo, quer conciliar a refeição com seus horários e fica insegura quando perde uma etapa. As dores são o tempo curto, as interrupções e a sequência confusa. O ganho desejado é acompanhar o preparo com menos esforço e perceber quando precisa agir. Reparem que aqui não há comandos, telas ou respostas do ChefBot. Primeiro mapeamos a situação e a necessidade; depois formulamos a solução. Esses itens são hipóteses a investigar.
 
-### Slide 6 — Roberto: antes do ChefBot
+### Slide 6 — Joaquim: antes do ChefBot
 
 **4:40–5:35 · 55 segundos**
 
-O mapa de Roberto também parte da cozinha sem o robô. Ele vê utensílios familiares, ingredientes e outra pessoa ocupando a bancada. Ouve pedidos de ajuda e preferências da família. Costuma conferir ingredientes e observar a consistência. Valoriza seu modo de cozinhar e quer entender por que uma etapa acontece. Suas dores são perder acesso ao espaço e não saber quando intervir. O ganho desejado é ajudar sem atrapalhar e preservar seus hábitos. Assim, o mapa não afirma que ele já usou uma automação ou reagiu a ela. Ele organiza o contexto anterior que usaremos para decidir como a colaboração deve funcionar.
+O mapa de Joaquim também parte da cozinha sem o robô. Ele vê utensílios familiares, ingredientes e outra pessoa ocupando a bancada. Ouve pedidos de ajuda e preferências da família. Costuma conferir ingredientes e observar a consistência. Valoriza seu modo de cozinhar e quer entender por que uma etapa acontece. Suas dores são perder acesso ao espaço e não saber quando intervir. O ganho desejado é ajudar sem atrapalhar e preservar seus hábitos. Assim, o mapa não afirma que ele já usou uma automação ou reagiu a ela. Ele organiza o contexto anterior que usaremos para decidir como a colaboração deve funcionar.
 
 ### Slide 7 — Necessidades orientam o design
 
@@ -65,11 +65,11 @@ Comparamos três referências robóticas e uma alternativa de preparo. Moley int
 
 ## Rafael
 
-### Slide 9 — Forma e função
+### Slide 9 — Desenho técnico do ChefBot
 
 **7:30–8:25 · 55 segundos**
 
-O ChefBot foi pensado como uma unidade estacionária de bancada, com dois braços e uma face digital simples. Os braços sugerem manipulação, e a face ajuda a sinalizar atenção; ela não comprova compreensão humana. A interface de receita e os controles de pausa e emergência precisam ser identificáveis e distintos. Também propomos texto legível, voz ajustável e comunicação que não dependa apenas de cor ou fala. O esboço usa formas primitivas para discutir essa organização. As dimensões, como a altura de 700 milímetros, são preliminares e não servem para fabricação. Quando houver calor, o cooktop fica separado, ao lado da base.
+A prancha apresenta o ChefBot nas vistas frontal, lateral e superior, com linhas de cota e medidas em milímetros. O estudo define 700 de altura total, 380 de largura, 350 de profundidade da base, 350 de alcance nominal de cada braço e 120 para o módulo facial. Essas medidas vieram do material do grupo e ainda precisam de validação estrutural e ergonômica; a representação é sem escala. O robô fica apoiado na bancada, ao lado de um cooktop separado. Os braços indicam manipulação, e a face digital sinaliza atenção. A interface e os controles de pausa e emergência devem ser claros e distintos, com informação que não dependa somente de cor ou voz.
 
 ### Slide 10 — Jornada de uma receita
 
@@ -77,11 +77,11 @@ O ChefBot foi pensado como uma unidade estacionária de bancada, com dois braço
 
 Na jornada proposta, a pessoa escolhe uma receita e recebe a lista de entradas e etapas humanas. Ela lava, corta e disponibiliza os ingredientes; o sistema verifica as condições previstas antes de iniciar. Durante o preparo, o estado fica visível e explicações podem ser solicitadas, sem pedir confirmação de todo movimento rotineiro. Se uma etapa depender da pessoa, o robô faz um pedido claro e aguarda. Na salada, estudamos transferência, mistura e montagem. No molho de tomate, acrescentamos cocção e requisitos térmicos. A interação é consistente, mas as condições não são iguais: parar um braço não elimina calor residual. A conclusão também depende de critérios definidos para cada receita.
 
-### Slide 11 — Ações, estados e limites
+### Slide 11 — Ações reutilizáveis entre receitas
 
 **9:25–10:25 · 60 segundos**
 
-A arquitetura conceitual separa a interface, o catálogo de receitas, a percepção, o planejamento e a atuação. Uma receita estrutura as ações e suas pré-condições: misturar, por exemplo, depende de ferramenta, recipiente e parâmetros definidos. O fluxo passa por selecionar, verificar, executar e concluir. Há ainda espera por ajuda, pausa e tratamento de falha. Consulta e explicação são funções sobre o estado atual: perguntar o que está acontecendo não deve apagar o estado de execução nem liberar movimento. Um eventual modelo de linguagem só apoiaria explicações. Após falha ou emergência, não há retomada automática; a causa precisa ser resolvida, as condições revalidadas e a continuação deliberada pela pessoa.
+A tabela organiza as ações reutilizadas nas receitas do catálogo proposto. Misturar aparece em todos os exemplos; outras ações dependem do preparo. Molhos combinam dosagem, transferência e cocção. Massas acrescentam sova. Saladas usam organização e montagem. Sorvetes dependem de equipamento específico, e sobremesas incluem montagem e finalização. Isso não significa que toda receita esteja implementada: cada uma exige ferramentas, parâmetros e condições próprias. O fluxo comum é selecionar, verificar, executar e concluir. Quando precisa da pessoa, o robô aguarda; uma pausa suspende a progressão. Erros exigem correção e revalidação, e não há reinício automático após emergência. Pedir uma explicação apenas consulta a informação: não muda o estado nem autoriza movimento.
 
 ### Slide 12 — Espaço compartilhado
 

@@ -57,7 +57,7 @@ As categorias descrevem o papel no cenário, não uma característica permanente
 
 **As personas são hipóteses de design, não participantes entrevistados.** Os contextos sociais, econômicos e culturais abaixo delimitam os cenários de análise e precisam ser investigados em pesquisa futura.
 
-| Aspecto | Mariana — persona primária | Roberto — persona secundária |
+| Aspecto | Ana — persona primária | Joaquim — persona secundária |
 |---|---|---|
 | Perfil | 28 anos; profissional com rotina corrida e experiência culinária básica | 52 anos; cozinheiro doméstico experiente e morador que auxilia pontualmente |
 | Contexto social | Divide a cozinha e concilia o preparo com compromissos de trabalho | Compartilha utensílios e receitas com familiares; circula pela cozinha durante o uso |
@@ -77,11 +77,11 @@ A ordem de exposição segue o template: a persona define quem está sendo consi
 
 Todos os itens são hipóteses autorais. Em uma pesquisa futura, cada observação deveria ser associada à sua evidência. As falas ilustrativas não são depoimentos reais. Referências metodológicas: [Gray](https://medium.com/@davegray/updated-empathy-map-canvas-46df22df3c8a) e [Nielsen Norman Group](https://www.nngroup.com/articles/empathy-mapping/).
 
-#### Mariana — primária
+#### Ana — primária
 
-![Mapa de empatia hipotético de Mariana, centrado na rotina culinária](assets/mapas/mariana.svg)
+![Mapa de empatia hipotético de Ana, centrado na rotina culinária](assets/mapas/ana.svg)
 
-| Campo | Hipóteses sobre Mariana |
+| Campo | Hipóteses sobre Ana |
 |---|---|
 | Pensa e sente | Quer comer em casa sem comprometer os outros horários. Fica insegura quando perde o ponto de uma etapa. |
 | Vê | Ingredientes, louça e pouco espaço livre na bancada; receita aberta no celular e pessoas circulando. |
@@ -92,11 +92,11 @@ Todos os itens são hipóteses autorais. Em uma pesquisa futura, cada observaç�
 
 **Implicação para o projeto:** mostrar etapa e progresso de forma concisa, permitir consulta e pausa e chamar a pessoa quando houver uma necessidade concreta. Essa é uma decisão de design derivada das hipóteses, e não um item de comportamento observado.
 
-#### Roberto — secundária
+#### Joaquim — secundária
 
-![Mapa de empatia hipotético de Roberto, centrado na cozinha compartilhada](assets/mapas/roberto.svg)
+![Mapa de empatia hipotético de Joaquim, centrado na cozinha compartilhada](assets/mapas/joaquim.svg)
 
-| Campo | Hipóteses sobre Roberto |
+| Campo | Hipóteses sobre Joaquim |
 |---|---|
 | Pensa e sente | Valoriza o próprio modo de cozinhar e quer entender mudanças no preparo. Desconfia de decisões que não consegue explicar. |
 | Vê | Utensílios familiares, ingredientes em diferentes etapas e outra pessoa usando a bancada. |
@@ -124,18 +124,18 @@ Compatibilidade, alcance, estabilidade e condições seguras são requisitos a v
 
 ## Jornada do usuário
 
-**Narrativa principal:** Mariana chega à cozinha para preparar uma salada. Roberto usa o mesmo ambiente e pode ajudar. A cena abaixo é um storyboard de interação proposto.
+**Narrativa principal:** Ana chega à cozinha para preparar uma salada. Joaquim usa o mesmo ambiente e pode ajudar. A cena abaixo é um storyboard de interação proposto.
 
 | Etapa | Pessoa e ambiente | Resposta proposta do ChefBot | Interação |
 |---|---|---|---|
-| 1. Primeiro contato | Mariana se posiciona na área de operação, com braços do robô recolhidos | Face se orienta para ela; apresenta sua função e aguarda acionamento | Espacial e não verbal |
+| 1. Primeiro contato | Ana se posiciona na área de operação, com braços do robô recolhidos | Face se orienta para ela; apresenta sua função e aguarda acionamento | Espacial e não verbal |
 | 2. Escolha | Seleciona salada e informa porções e restrições | Exibe ingredientes, utensílios, limites e etapas humanas | Verbal e visual |
 | 3. Preparação | Lava e corta os ingredientes; dispõe recipientes e ferramentas | Aguarda; indica visualmente os locais previstos | Espacial e não verbal |
 | 4. Verificação | Confere a lista e solicita início | Verifica as entradas pelos meios previstos; se faltar algo, explica e não inicia | Verbal e visual |
-| 5. Preparo | Mariana acompanha sem orientar cada movimento | Anuncia o próximo movimento relevante, transfere e mistura conforme o roteiro proposto; exibe estado | Verbal, não verbal e espacial |
-| 6. Cozinha compartilhada | Roberto se aproxima para pegar um utensílio | Se houver interferência na área de trabalho, suspende a progressão, sinaliza e pede liberação | Espacial, verbal e não verbal |
-| 7. Consulta e ajuda | Mariana pergunta “Qual etapa?”; Roberto oferece um recipiente | Informa estado; quando uma ação humana for necessária, explicita o pedido e aguarda | Verbal e não verbal |
-| 8. Interrupção | Mariana aciona pausa | Exibe “Pausado”; a resposta de movimentos e equipamentos segue a condição definida para a tarefa | Verbal e visual |
+| 5. Preparo | Ana acompanha sem orientar cada movimento | Anuncia o próximo movimento relevante, transfere e mistura conforme o roteiro proposto; exibe estado | Verbal, não verbal e espacial |
+| 6. Cozinha compartilhada | Joaquim se aproxima para pegar um utensílio | Se houver interferência na área de trabalho, suspende a progressão, sinaliza e pede liberação | Espacial, verbal e não verbal |
+| 7. Consulta e ajuda | Ana pergunta “Qual etapa?”; Joaquim oferece um recipiente | Informa estado; quando uma ação humana for necessária, explicita o pedido e aguarda | Verbal e não verbal |
+| 8. Interrupção | Ana aciona pausa | Exibe “Pausado”; a resposta de movimentos e equipamentos segue a condição definida para a tarefa | Verbal e visual |
 | 9. Retomada e conclusão | A pessoa verifica a condição e escolhe continuar | Revalida pré-condições; ao terminar, comunica a conclusão e mantém ferramentas em condição prevista | Verbal, não verbal e espacial |
 | 10. Último contato | Retira a refeição e organiza a limpeza | Informa o fim do ciclo e orienta as etapas manuais de limpeza previstas | Verbal e visual |
 
@@ -204,15 +204,27 @@ Privacidade e inclusão atravessam esses valores: informar sensores ativos, mini
 
 ### Protótipo no papel
 
-![Esboço esquemático do ChefBot com formas primitivas e elementos de interação](assets/conceito/prototipo-papel.svg)
+![Desenho técnico conceitual do ChefBot com vistas frontal, lateral e superior e cotas em milímetros](assets/conceito/desenho_tecnico_cotado.png)
 
-O protótipo esquemático usa um paralelepípedo para a base, um corpo vertical, um módulo facial arredondado, cilindros/articulações para os braços e indicação dos controles. Serve para discutir posição da face, alcance percebido e divisão da bancada. É uma representação de baixa fidelidade, sem escala.
+A prancha técnica apresenta as vistas frontal, lateral e superior com linhas de cota e tabela de dimensões. O [esboço inicial de formas primitivas](assets/conceito/prototipo-papel.svg), mantido como registro de baixa fidelidade, usa um paralelepípedo para a base, um corpo vertical, um módulo facial arredondado, cilindros/articulações para os braços e indicação dos controles. Serve para discutir posição da face, alcance percebido e divisão da bancada. É uma representação de baixa fidelidade, sem escala.
 
 As cotas herdadas do estudo são preliminares: altura total de 700 mm, largura de 380 mm, profundidade da base de 350 mm, alcance nominal de cada braço de 350 mm e módulo facial de 120 mm. Não foram verificadas estrutural ou ergonomicamente. O esboço e as [vistas conceituais fornecidas](assets/conceito/desenho_tecnico_cotado.png) não são desenhos para fabricação.
 
 ## Ações do robô
 
 Cada ação abaixo descreve um comportamento pretendido; não uma capacidade implementada.
+
+A organização por receita retoma a tabela do modelo de apresentação enviado pelo grupo:
+
+| Receita | Ações de preparo | Etapa específica |
+|---|---|---|
+| Molhos | Dosar, transferir e misturar | Cocção |
+| Massas | Dosar e misturar | Sovar |
+| Saladas | Organizar, transferir e misturar | Montar |
+| Sorvetes | Misturar | Equipamento específico |
+| Sobremesas | Misturar e montar | Finalizar |
+
+São exemplos de um catálogo proposto. Cada receita define ferramentas, parâmetros e participação humana; a tabela não comprova execução física.
 
 | Ação | Pré-requisitos | Resultado esperado no ambiente ou no sistema |
 |---|---|---|
