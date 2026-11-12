@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Esquema em vista superior de formação em L, robô estacionário e circulação livre">
+<rect width="1200" height="760" fill="#fff"/>
+<g font-family="Arial,sans-serif" fill="#142C42">
+<text x="54" y="65" font-size="38" font-weight="700">Cozinha compartilhada · formação em L</text>
+<text x="54" y="103" font-size="21" fill="#566879">Vista superior esquemática · orientação social, sem distâncias de segurança</text>
+<rect x="350" y="165" width="550" height="365" fill="#F1F5F8" stroke="#B4C6D4" stroke-width="2"/>
+<text x="376" y="201" font-size="20">Bancada</text>
+<rect x="570" y="200" width="160" height="87" rx="4" fill="#E0EDF6" stroke="#246594" stroke-width="2"/>
+<text x="598" y="251" font-size="25" font-weight="700">ChefBot</text>
+<ellipse cx="650" cy="405" rx="154" ry="78" fill="#fff" stroke="#246594" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="559" y="399" font-size="24" font-weight="700">Espaço de atenção</text>
+<text x="567" y="434" font-size="20">compartilhado (o-space)</text>
+<circle cx="248" cy="405" r="55" fill="#E0EDF6" stroke="#246594" stroke-width="2"/>
+<text x="204" y="412" font-size="22">Pessoa</text>
+<path d="M307 405H457M650 293V317" stroke="#246594" stroke-width="3"/>
+<path d="M457 405L441 397V413Z M650 317L642 301H658Z" fill="#246594"/>
+<text x="115" y="507" font-size="20">Operador pela lateral visível</text>
+<text x="928" y="274" font-size="20">Robô fixo:</text><text x="928" y="304" font-size="20">não percorre</text><text x="928" y="334" font-size="20">corredores</text>
+<path d="M160 594H1020" stroke="#607B8D" stroke-width="3"/>
+<path d="M1020 594L1002 584V604Z" fill="#607B8D"/>
+<text x="388" y="632" font-size="24">Circulação fora da área de trabalho</text>
+<text x="54" y="705" font-size="20" fill="#566879">A formação facilita atenção conjunta; não define uma zona fisicamente segura.</text>
+<text x="54" y="738" font-size="18" fill="#566879">Referências conceituais: Hall (1966) e Kendon (1990) · aplicação proposta pelo grupo</text>
+</g></svg>
